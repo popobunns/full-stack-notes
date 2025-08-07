@@ -1,8 +1,8 @@
 import Link from "next/Link";
 export default function Home() {
     return (
-      <main className="flex justify-center items-start min-h-screen bg-gradient-to-b from-white to-gray-100 px-4 py-12">
-        <div className="max-w-3xl w-full bg-white rounded-2xl shadow-xl p-8 fade-in-up">
+      <main className="main-container">
+        <div className="content-wrapper fade-in-up">
           <h1 className="page-title fade-in-up">Creating a Website</h1>
 
           {/* Author Note*/}
@@ -116,7 +116,7 @@ export default function Home() {
             </ol>
 
         {/* Routing Pages */}
-        <h3 className="subheading">Step 4: Connecting Your Pages</h3>
+        <h3 className="subheading">Step 4: Routing Your Pages</h3>
         <br/>
         <p className="body">Once you've created your pages, it's time to start routing them to each other so
         you can navigate between the different pages in your website.
