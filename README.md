@@ -6,3 +6,14 @@ This website is built for those beginning on their web development journey. It's
 Thus, I decided to build my own website that walks beginners through the high-level overview of web development, what a browser is and how it's different from servers and websites, and any other helpful tips for beginner developers. 
 
 If you notice any errors or room for improvement, please send me a message. I am always looking to improve my website, and of course to learn more ways to become a better developer. 
+
+## Content
+As of right now, the following are topics I want to cover in this cheat sheet: 
+- How Servers and Browsers Interact
+- JavaScript
+- JSX
+- React
+- Next.js
+- Creating a Website
+
+I am currently working on all of these pages and will be making updates. 
