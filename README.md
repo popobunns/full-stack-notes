@@ -1,4 +1,4 @@
-# Full Stack Web Development Notes
+# Full Stack Web Development Notes 🌐
 
 ## About 
 This website is built for those beginning on their web development journey. It's meant to be used as a guideline/cheat sheet for beginners. As someone who is also starting out, I can empathize with those who are overwhelmed with the lareg volume of information that one needs to learn to make even a simple static website. I kept finding myself wishing that I had a cheat sheet to refer to as I learned about the different components that built a website. 
