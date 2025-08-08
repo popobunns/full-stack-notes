@@ -7,7 +7,7 @@ export default function Home() {
             <p className="body">You may have heard the terms "servers", "browsers", "clients", "networks", etc.
               If you're anything like I was, you must be wondering to yourself, "What the heck is that?"
               In this VERY watered-down tutorial, I will break down these concepts for you.
-              To make it fun even, I will use <span className="text-green-700">food analogies</span> throughout the whole tutorial to break it down for you.
+              To make it fun even, I will use <span className="font-bold text-blue-700">food analogies</span> throughout the whole tutorial to break it down for you.
             </p>
 
             {/* Browsers / Clients */}
@@ -17,7 +17,7 @@ export default function Home() {
                 The browser and the client refer to the same entity: the device through which the user
                 views websites (eg Google Chrome, Firefox, Safari, etc.)
                 <br/>
-                <span className="font-bold text-green-700">Browser/client is the customer looking at the menu.</span>
+                <span className="font-bold text-blue-700">Browser/client is the customer looking at the menu.</span>
               </p>
             </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
               <h3 className="subheading">Servers</h3>
               <p className="body">
                 The server is a computer that responds to requests over the internet. 
-                <span className="font-bold text-green-700">The server is the waiter who takes the client's orders,
+                <span className="font-bold text-blue-700">The server is the waiter who takes the client's orders,
                 brings it to the ktichen, and returns with the food item.</span> In similar fashion, the server
                 takes and processes orders in response to client demands/requests. In Internet-speak, the server
                 can request data from APIs or databases, runs backend logic, sends data, and more to browsers
@@ -70,11 +70,11 @@ export default function Home() {
                   For instance, if making API calls, the component will use what's called 
                   <span className="font-bold"> asynchronous functions</span> like <code className="inline-code">
                     await fetch()</code> to fetch for information. (Again, if you're confused, look below).
-                    Here, <span className="font-bold text-green-700">APIs are lik the pantry where the kitchen
+                    Here, <span className="font-bold text-blue-700">APIs are lik the pantry where the kitchen
                       gets their ingredients from.</span>
 
                   Alternatively, if conducting database queries, this will also be processed. 
-                  <span className="font-bold text-green-700">Databases are like the inventory of all the
+                  <span className="font-bold text-blue-700">Databases are like the inventory of all the
                     resources the kitchen has.</span>
                 </li>
                 <li className="ordered-iten">
@@ -84,7 +84,7 @@ export default function Home() {
                   in the meantime it can do other tasks). Once everything has been received and processed, 
                   the page is rendered. This is called <span className="font-bold">Server-Side Rendering</span>.
                   Basically saying the server prepares everything before the page is displayed on the browser.
-                  <span className="font-bold text-green-700"> Asynchronous functions are like timers; reminders that 
+                  <span className="font-bold text-blue-700"> Asynchronous functions are like timers; reminders that 
                     allow us to complete other tasks but remind us when the task we're awaiting on has finished.</span>
                 </li>
               </ol>
@@ -94,7 +94,7 @@ export default function Home() {
             <div>
               <h3 className="subheading">Server Components</h3>
               <p className="body">This is where the browser content is going to go.
-                <span className="font-bold text-green-700">The server component is like the prepared dish
+                <span className="font-bold text-blue-700">The server component is like the prepared dish
                   made on demand based on the client's request.
                 </span>
               </p>
@@ -107,7 +107,7 @@ export default function Home() {
                 stood around not doing anything until the dish was finished by the kitchen. Imagine if you
                 went to a restaurant and saw the waiter just stand there staring at the kitchen staff until 
                 the food was done being prepared. That would be a horrible waiter! 
-                <span className="font-bold text-green-700"> Instead, a good waiter would be multi-tasking, tending to other customers, cleaning tables, 
+                <span className="font-bold text-blue-700"> Instead, a good waiter would be multi-tasking, tending to other customers, cleaning tables, 
                 getting water, etc.</span> In the same fashion, an efficient server would continue on with other tasks
                 while the required data was done being fetched.</p>
                 Servers can do this "asynchronous" labor while the data/requests are being fetched because of the 
