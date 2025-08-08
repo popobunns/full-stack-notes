@@ -1,36 +1,20 @@
-import Image from "next/image";
-import './globals.css'
-import Link from "next/link";
+import './globals.css';
+import Header from './components/header';
+import Footer from './components/footer';
 
 export const metadata = {
   title: 'Full Stack Web Notes', 
   description: 'Learning and summary notes for web development',
-  /* Description helps browsers, search enginers and users know what your page is about*/
-}
+};
 
-export default function Header({children}) { 
-  return ( 
+export default function RootLayout({ children }) {
+  return (
     <html lang="en">
-      <body className="min-h-screen bg-white">
-        {/* Top Nav Bar*/}
-        <header className="h-16 flex items-center justify-between px-6 shadow-md">
-          
-
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-              <Image src="/images/logo.png" alt="Web Notes Logo" width={32} height={32} />
-              <span className="text-lg font-semibold text-gray-800">Web Notes</span>
-          </Link>
-          
-          {/* Home Button */}
-          <Link href="/" className="text-lg font-medium text-gray-700 hover:text-blue-600">Home</Link>
-        </header>
-
-        {/*Main page content */}
-        <main className="p-8">
-          {children}
-        </main>
+      <body className="min-h-screen bg-white flex flex-col">
+        <Header />
+        <main className="flex-grow p-8">{children}</main>
+        <Footer />
       </body>
     </html>
-  )
+  );
 }

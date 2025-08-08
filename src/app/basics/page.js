@@ -144,8 +144,8 @@ export default function Home() {
                       height={200}
                 />
                 <Image 
-                      src="/images/inventory.png"
-                      alt="Restaurant worker taking inventory"
+                      src="/images/chef-with-timer.png"
+                      alt="Restaurant Chef with Timer in Background"
                       width={200}
                       height={200}
                 />
@@ -155,33 +155,62 @@ export default function Home() {
             </div>
             
             {/* Server Components */}
-            <div>
-              <h3 className="subheading">Server Components</h3>
-              <p className="body">This is where the browser content is going to go.
-                <span className="font-bold text-blue-700"> The server component is like the prepared dish
-                  made on demand based on the client's request.
-                </span>
-              </p>
+            <div className="section-row">
+              {/* Text Section */}
+              <div className="md:w-2/3 section-column items-center">
+                <h3 className="subheading">Server Components</h3>
+                <p className="body">This is where the browser content is going to go.
+                  <span className="font-bold text-blue-700"> The server component is like the prepared dish
+                    made on demand based on the client's request.
+                  </span>
+                </p>
+                </div>
+
+                {/* Image Section */}
+              <div className="md:w-1/3 section-row items-center">
+              <Image 
+                    src="/images/food.png"
+                    alt="Restaurant Dish"
+                    width={200}
+                    height={100}
+                />
+              </div>
             </div>
 
             {/* Asynchronous Functions */}
-            <div>
-              <h3 className="subheading">Asynchronous Functions</h3>
-              <p className="body">As mentioned before, it would be very inefficient if the server just
-                stood around not doing anything until the dish was finished by the kitchen. Imagine if you
-                went to a restaurant and saw the waiter just stand there staring at the kitchen staff until 
-                the food was done being prepared. That would be a horrible waiter! 
-                <span className="font-bold text-blue-700"> Instead, a good waiter would be multi-tasking, tending to other customers, cleaning tables, 
-                getting water, etc.</span> In the same fashion, an efficient server would continue on with other tasks
-                while the required data was done being fetched.</p>
-                <p className="body">Servers can do this "asynchronous" labor while the data/requests are being fetched because of the 
-                <code className="inline-code">async</code> and <code className="inline-code">await</code> 
-                keywords in JavaScript. To be clear, <code className="inline-code">async</code> declares a function that will return a promise.
-                <code className="inline-code">await</code> pauses the execution of this function until the promise is delivered.
-                </p>
+            <div className="section-row">
+
+              {/* Text Section */}
+              <div className="md:w-2/3 section-column items-center">
+                <h3 className="subheading">Asynchronous Functions</h3>
+                <p className="body">As mentioned before, it would be very inefficient if the server just
+                  stood around not doing anything until the dish was finished by the kitchen. Imagine if you
+                  went to a restaurant and saw the waiter just stand there staring at the kitchen staff until 
+                  the food was done being prepared. That would be a horrible waiter! 
+                  <span className="font-bold text-blue-700"> Instead, a good waiter would be multi-tasking, tending to other customers, cleaning tables, 
+                  getting water, etc.</span> In the same fashion, an efficient server would continue on with other tasks
+                  while the required data was done being fetched.</p>
+              </div>
+              
+              {/* Image Section */}
+              <div className="md:w-1/3 section-column items-center">
+                <Image 
+                      src="/images/multitasking-waiter.png"
+                      alt="Restaurant Multi-Tasking Waiter"
+                      width={200}
+                      height={200}
+                    />
+              </div>
+              
             </div>
+            <p className="body">Servers can do this "asynchronous" labor while the data/requests are being fetched because of the 
+                  <code className="inline-code">async</code> and <code className="inline-code">await</code> 
+                  keywords in JavaScript. To be clear, <code className="inline-code">async</code> declares a function that will return a promise.
+                  <code className="inline-code">await</code> pauses the execution of this function until the promise is delivered.
+            </p>
           
           </div>
         </main>
       );
 }
+
