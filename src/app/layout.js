@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "./images/logo.png"; 
 import './globals.css'
 import Link from "next/link";
 
@@ -19,7 +18,7 @@ export default function Header({children}) {
 
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-              <Image src={logo} alt="Web Notes Logo" width={32} height={32} />
+              <Image src="/images/logo.png" alt="Web Notes Logo" width={32} height={32} />
               <span className="text-lg font-semibold text-gray-800">Web Notes</span>
           </Link>
           
