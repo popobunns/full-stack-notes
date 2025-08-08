@@ -37,6 +37,11 @@ export default function Home() {
           Creating a Website
           </Link>
         </li>
+        <li>
+          <Link href="/fetch" className="button-link">
+          Fetching Data
+          </Link>
+        </li>
       </ul>
     </main>
 
