@@ -76,9 +76,9 @@ export default function Home() {
             </p>
             
             <p className="body"><span className="font-bold">Client-side rendering</span> happens in the 
-              user's browser after the page loads, while server-side rendering generates the HTML on the 
+              user's browser after the page loads, while <span className="font-bold">server-side rendering</span> generates the HTML on the 
               server before sending it to the browser. <span className="font-bold">Server-side rendering </span>
-              is better for SEO because search engines can immediately read the content without waiting for 
+              is better for search engine optimization (SEO) because search engines can immediately read the content without waiting for 
               JavaScript to run. Client-side rendering may result in slower initial load times and less 
               visibility to search engines if not handled properly.
             </p>
