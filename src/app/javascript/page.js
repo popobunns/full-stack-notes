@@ -73,18 +73,42 @@ export default function Home() {
         <p className="body">
           So, how do we address this? Well we have a few options: 
         </p>
-        <ol className="ordered-list">
+        <ol className="ordered-list font-bold">
           <li className="ordered-item">
-            Use TypeScript
+            Use TypeScript (static typing)
+            <Image 
+              src="/images/javascript/typescript.png"
+              alt="TypeScript Static Typing of Data Types"
+              width={500}
+              height={500}
+            />
           </li>
-          <li className="ordered-item">
+          <li className="ordered-item font-bold">
             Manually type verification
+            <Image 
+              src="/images/javascript/manual-check.png"
+              alt="Manual Checking of Data Types"
+              width={500}
+              height={500}
+            />
           </li>
-          <li className="ordered-item">
+          <li className="ordered-item font-bold">
             Create an assert function
+            <Image 
+              src="/images/javascript/assert-function.png"
+              alt="Creating an Assert Function of Data Types"
+              width={500}
+              height={500}
+            />
           </li>
-          <li className="ordered-item">
+          <li className="ordered-item font-bold">
             Type coercion
+            <Image 
+              src="/images/javascript/type-coercion.png"
+              alt="Type Coercion of Data Types"
+              width={400}
+              height={400}
+            />
           </li>
         </ol>
 
