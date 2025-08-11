@@ -76,7 +76,7 @@ export default function Home() {
         <ol className="ordered-list font-bold">
           <li className="ordered-item">
             Use TypeScript (static typing)
-            <Image 
+            <Image className="fade-in-up"
               src="/images/javascript/typescript.png"
               alt="TypeScript Static Typing of Data Types"
               width={500}
@@ -85,7 +85,7 @@ export default function Home() {
           </li>
           <li className="ordered-item font-bold">
             Manually type verification
-            <Image 
+            <Image className="fade-in-up"
               src="/images/javascript/manual-check.png"
               alt="Manual Checking of Data Types"
               width={500}
@@ -94,7 +94,7 @@ export default function Home() {
           </li>
           <li className="ordered-item font-bold">
             Create an assert function
-            <Image 
+            <Image className="fade-in-up"
               src="/images/javascript/assert-function.png"
               alt="Creating an Assert Function of Data Types"
               width={500}
@@ -103,7 +103,7 @@ export default function Home() {
           </li>
           <li className="ordered-item font-bold">
             Type coercion
-            <Image 
+            <Image className="fade-in-up"
               src="/images/javascript/type-coercion.png"
               alt="Type Coercion of Data Types"
               width={400}
