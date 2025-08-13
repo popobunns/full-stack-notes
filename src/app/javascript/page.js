@@ -113,18 +113,39 @@ export default function Home() {
         </ol>
 
 
-      {/* Math Operators */}
-      <h2 className="subheading">Math Operators</h2>
+      {/* Arithmetic */}
+      <h2 className="subheading">Arithmetic</h2>
       <p className="body">
-      Coming soon...
+      Below is a useful table to remember some common arithmetic symbols in JavaScript:
      </p>
+     <Image className="fade-in-up"
+      src="/images/javascript/arithmetic.png"
+      alt="Table of Arithmetic Operations in JavaScript"
+      width={400}
+      height={400}
+      />
 
-
-      {/* Assignment vs Comparison */}
-      <h2 className="subheading">Assignment and Comparison</h2>
+      {/* Assignment, Comparison, and Logical Operations */}
+      <h2 className="subheading">Assignment, Comparison, and Logical Operations</h2>
       <p className="body">
-      Coming soon...
+      Assignment, comparison, and logical oeprational syntax in JavaScript is similar to other programming languages, 
+      however there are a few differences that I have highlighted in orange below: 
      </p>
+     <Image className="fade-in-up"
+      src="/images/javascript/operations.png"
+      alt="Table of JavaScript Assignment, Comparison, and Logical Operations"
+      width={500}
+      height={500}
+     />
+     <p className="body">
+      NOTE: In JavaScript, <code className="inline-code">==</code> and <code className="inline-code">===</code> mean different
+      comparisons. <code className="inline-code">==</code> employs type conversion to assess whether or not these values are 
+      equivalent. For instance, <code className="inline-code">2 == "2"</code> gets translated to <code className="inline-code">2 == 2</code>,
+      which evaluates to <code className="inline-code">true</code>. 
+      Whereas <code className="inline-code">===</code> is <span className="font-bold">type sensitive</span>, so <code className="inline-code">2 == "2"</code> would
+      evaluate to <code className="inline-code">false</code> since numbers and strings are not equivalent.
+    </p>
+
      
      {/* Functions*/}
      <h2 className="subheading">Functions</h2>
