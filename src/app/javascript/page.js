@@ -249,12 +249,27 @@ export default function Home() {
     />
 
     {/* Arrow Functions vs Function Declarations*/}
-    <h3 className="subsubheading">Arrow Function s vs Function Declarations</h3>
+    <h3 className="subsubheading">Arrow Functions vs Function Declarations</h3>
     <p className="body">
       Now that we learned the different ways that we can define functions in JavaScript, 
       you may be wondering, "So can I just use them interchangeably whenever I feel like it?"
       The answer is NO. 
     </p>
+    <p className="body">
+      Arrow functions cannot be used as methods in JavaScript as they do not have their own 
+      <code className="inline-code">this</code>. If used within a method, <code className="inline-code">this</code>
+      will not refer to the object this method belongs to; instead, it will refer to the object in the outer scope.
+      Therefore, arrow functions break when used within methods. Due to this unpredictable behaviour,
+      <span className="font-bold"> arrow methods are NOT used within methods in JavaScript</span>.
+    </p>
+    <p className="body">Here's more information on arrow functions:</p>
+    <Link
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline hover:text-blue-800">
+        Arrow Function Expressions
+      </Link>
     <br/>
      {/* ARRAYS */}
      <h2 className="subheading">Arrays</h2>
@@ -265,6 +280,7 @@ export default function Home() {
 
      <p className="body">
      Here is a useful link for more information (which I highly recommend looking at): 
+     </p>
      <Link
       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
       target="_blank"
@@ -272,7 +288,6 @@ export default function Home() {
       className="text-blue-600 underline hover:text-blue-800">
       JavaScript Arrays
      </Link>
-     </p>
           
      {/* EVENTS*/}
      <h2 className="subheading">Events</h2>
