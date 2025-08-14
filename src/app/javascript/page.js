@@ -113,7 +113,7 @@ export default function Home() {
         </ol>
 
 
-      {/* Arithmetic */}
+      {/* ARITHMETIC */}
       <h2 className="subheading">Arithmetic</h2>
       <p className="body">
       Below is a useful table to remember some common arithmetic symbols in JavaScript:
@@ -125,7 +125,7 @@ export default function Home() {
       height={400}
       />
 
-      {/* Assignment, Comparison, and Logical Operations */}
+      {/* ASSIGNMENT, COMPARISON, AND LOGICAL OPERATIONS */}
       <h2 className="subheading">Assignment, Comparison, and Logical Operations</h2>
       <p className="body">
       Assignment, comparison, and logical oeprational syntax in JavaScript is similar to other programming languages, 
@@ -147,7 +147,7 @@ export default function Home() {
     </p>
 
      
-     {/* Functions*/}
+     {/* FUNCTIONS*/}
      <h2 className="subheading">Functions</h2>
      <p className="body">
       Now functions are what give JavaScript the chance to be powerful. Before we get into it, you may have heard the terms 
@@ -157,6 +157,8 @@ export default function Home() {
      </p>
      <br/>
      <p className="body">Now, let's start off by going over the few ways functions can be created in JavaScript.</p>
+     
+     {/* Function Declaration */}
      <h3 className="subsubheading">1)  Function Declaration</h3>
       <p className="body">
         <span className="font-bold">Function declarations</span> hoist functions to the <span className="font-bold">global scope</span>.
@@ -177,6 +179,7 @@ export default function Home() {
         (ie order dependent).
       </p>
 
+      {/* Function Expression */}
      <h3 className="subsubheading">2) Function Expression</h3>
       <p className="body">
         In simple terms, we are placing a no-name function into a variable. Best practice is to place the function expression inside a 
@@ -190,7 +193,7 @@ export default function Home() {
         width={300}
         height={300}
       />
-
+      {/* IIFE */}
      <h3 className="subsubheading">3) Immediately Invoked Function Expression (IIFE)</h3>
       <p className="body">
         IIFEs are used when you want a function that is executed immediately after it is defined. See below 
@@ -207,12 +210,53 @@ export default function Home() {
         invokes the IIFE so it can run as soon as it has been defined. 
       </p>
       
-
+    {/* Arrow Functions */}
     <h3 className="subsubheading">Arrow Functions</h3>
     <p className="body">
       Now let's look at <span className="font-bold">arrow functions</span>.
+      Here's how to transform a standard function into an arrow function:
     </p>
-     {/* Arrays */}
+    <ol className="ordered-list">
+      <li className="ordered-item">
+        Remove word <code className="inline-code">function</code>; replace with arrow between argument
+        and open body bracket <code className="inline-code">(</code>.
+      </li>
+      <li className="ordered-item">
+        Remove body brackets and word <code className="inline-code">return</code>
+        as it is implied.
+      </li>
+      <li className="ordered-item">
+        Remove argument parentheses (only if function has <span className="font-bold">one parameter</span>). 
+        Otherwise, leave the parentheses.
+      </li>
+    </ol>
+    {/* Two Parameters Std Function into Arrow Function */}
+    <h4 className="subsubsubheading">Two Parameters Function into Arrow Function</h4>
+    <Image 
+      src="/images/javascript/function/arrow-function-2.png"
+      alt="Code block of two function parameter turning into arrow function"
+      width={400}
+      height={400}
+    />
+
+    {/* One Parameter Std Function into Arrow Function */}
+    <h4 className="subsubsubheading">One Parameter Function into Arrow Function</h4>
+    <Image 
+      src="/images/javascript/function/arrow-function-1.png"
+      alt="Code block of two function parameter turning into arrow function"
+      width={300}
+      height={300}
+    />
+
+    {/* Arrow Functions vs Function Declarations*/}
+    <h3 className="subsubheading">Arrow Function s vs Function Declarations</h3>
+    <p className="body">
+      Now that we learned the different ways that we can define functions in JavaScript, 
+      you may be wondering, "So can I just use them interchangeably whenever I feel like it?"
+      The answer is NO. 
+    </p>
+    <br/>
+     {/* ARRAYS */}
      <h2 className="subheading">Arrays</h2>
      <p className="body">
       Arrays is an important topic to understand in JavaScript, since you will most likely always be
@@ -230,7 +274,7 @@ export default function Home() {
      </Link>
      </p>
           
-     {/* Events*/}
+     {/* EVENTS*/}
      <h2 className="subheading">Events</h2>
      <p className="body">
       Coming soon...
