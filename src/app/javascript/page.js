@@ -164,11 +164,11 @@ export default function Home() {
         so if you want <code className="inline-code">function second()</code> to use <code className="inline-code">function first()</code>, then you must declare 
         <code className="inline-code">function first()</code> first. 
       </p>
-      <Image 
+      <Image className="fade-in-up"
         src="/images/javascript/function/function-declaration.png"
         alt="Code block demonstrating function declaration ordering"
-        width={400}
-        height={400}
+        width={500}
+        height={500}
       />
       <p className="body">
         In this example, we see two functions, both which are intiialized via function declaration. Thus, they are available at the global
@@ -178,15 +178,58 @@ export default function Home() {
       </p>
 
      <h3 className="subsubheading">2) Function Expression</h3>
-     <h3 className="subsubheading">3) Immediately Invoked Function Expression</h3>
+      <p className="body">
+        In simple terms, we are placing a no-name function into a variable. Best practice is to place the function expression inside a 
+        <code className="inline-code">const</code> declared variable. The reason for this is to prevent accidental reassignment
+        (ie we don't want to accidentally overwrite the variable to which this function is assigned to, because doing so would mean 
+        losing access to this function). See below for an example: 
+      </p>
+      <Image className="fade-in-up"
+        src="/images/javascript/function/function-expression.png"
+        alt="Code block of function expression"
+        width={300}
+        height={300}
+      />
 
+     <h3 className="subsubheading">3) Immediately Invoked Function Expression (IIFE)</h3>
+      <p className="body">
+        IIFEs are used when you want a function that is executed immediately after it is defined. See below 
+        for an example: 
+      </p>
+      <Image className="fade-in-up"
+        src="/images/javascript/function/iife.png"
+        alt="Code block of immediately invoked function expression"
+        width={400}
+        height={400}
+      />
+      <p className="body">
+        NOTE: Remember, the <code className="inline-code">();</code> that follows the IIFE is what
+        invokes the IIFE so it can run as soon as it has been defined. 
+      </p>
+      
 
+    <h3 className="subsubheading">Arrow Functions</h3>
+    <p className="body">
+      Now let's look at <span className="font-bold">arrow functions</span>.
+    </p>
      {/* Arrays */}
      <h2 className="subheading">Arrays</h2>
      <p className="body">
-      Coming soon...
+      Arrays is an important topic to understand in JavaScript, since you will most likely always be
+      dealing with arrays of data (eg JSON, strings, numbers, etc).
      </p>
 
+     <p className="body">
+     Here is a useful link for more information (which I highly recommend looking at): 
+     <Link
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 underline hover:text-blue-800">
+      JavaScript Arrays
+     </Link>
+     </p>
+          
      {/* Events*/}
      <h2 className="subheading">Events</h2>
      <p className="body">

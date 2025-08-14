@@ -105,7 +105,7 @@ export default function Home() {
             </li>
             <li className="ordered-item">
               Customize your page to meet the requirements for your website. Use Tailwind CSS to customize the design.
-              Here is a website that you can refer to when designing in Tailwind CSS:
+              Here is a website that you can refer to when designing in Tailwind CSS: 
                 <Link href="https://tailwindcss.com/docs/installation/using-vite"
                 target="_blank"
                 rel="noopener noreferrer"
