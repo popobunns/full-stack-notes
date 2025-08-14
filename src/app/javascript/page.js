@@ -137,7 +137,7 @@ export default function Home() {
       width={500}
       height={500}
      />
-     <p className="body">
+     <p className="body italic">
       NOTE: In JavaScript, <code className="inline-code">==</code> and <code className="inline-code">===</code> mean different
       comparisons. <code className="inline-code">==</code> employs type conversion to assess whether or not these values are 
       equivalent. For instance, <code className="inline-code">2 == "2"</code> gets translated to <code className="inline-code">2 == 2</code>,
@@ -205,7 +205,7 @@ export default function Home() {
         width={400}
         height={400}
       />
-      <p className="body">
+      <p className="body italic">
         NOTE: Remember, the <code className="inline-code">();</code> that follows the IIFE is what
         invokes the IIFE so it can run as soon as it has been defined. 
       </p>
