@@ -150,8 +150,36 @@ export default function Home() {
      {/* Functions*/}
      <h2 className="subheading">Functions</h2>
      <p className="body">
-      Coming soon...
+      Now functions are what give JavaScript the chance to be powerful. Before we get into it, you may have heard the terms 
+      <span className="font-bold"> function</span> and <span className="font-bold">methods</span> be used interchangeably. 
+      <span className="font-bold">Functions</span> can exist on their own, whereas <span className="font-bold">methods</span> are functions that sit inside objects. 
+      Methods act on the object they belong to.
      </p>
+     <br/>
+     <p className="body">Now, let's start off by going over the few ways functions can be created in JavaScript.</p>
+     <h3 className="subsubheading">1)  Function Declaration</h3>
+      <p className="body">
+        <span className="font-bold">Function declarations</span> hoist functions to the <span className="font-bold">global scope</span>.
+        This means that this function will be accessible everywhere else in the script. It is also <span className="font-bold">order dependent</span>, 
+        so if you want <code className="inline-code">function second()</code> to use <code className="inline-code">function first()</code>, then you must declare 
+        <code className="inline-code">function first()</code> first. 
+      </p>
+      <Image 
+        src="/images/javascript/function/function-declaration.png"
+        alt="Code block demonstrating function declaration ordering"
+        width={400}
+        height={400}
+      />
+      <p className="body">
+        In this example, we see two functions, both which are intiialized via function declaration. Thus, they are available at the global
+        scope. If <code className="inline-code">function second()</code> was declared first, then this code would return error 
+        since the body of  <code className="inline-code">function second()</code> relies on  <code className="inline-code">function first()</code>
+        (ie order dependent).
+      </p>
+
+     <h3 className="subsubheading">2) Function Expression</h3>
+     <h3 className="subsubheading">3) Immediately Invoked Function Expression</h3>
+
 
      {/* Arrays */}
      <h2 className="subheading">Arrays</h2>
