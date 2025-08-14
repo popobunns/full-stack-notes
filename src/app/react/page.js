@@ -54,6 +54,7 @@ export default function Home() {
             alt="Summary image showing relationship between react elements, components, and apps"
             width={400}
             height={400}
+            className="fade-in-up rounded-lg"
           />
           <br />
           <p className="body">
@@ -69,9 +70,63 @@ export default function Home() {
             Here is an example of creating a React component.
           </p>
           <ol className="ordered-list">
+            <li className="ordered-item">
+              Initialize a function
+            </li>
+            <Image 
+              src="/images/react/initialize-function.png"
+              alt="Code block for initializing a React function"
+              width={300}
+              height={300}
+              className="fade-in-up rounded-lg"
+            />
             
-          </ol>
+            <li className="ordered-item">
+              Return a JSX component (ie React element)
+            </li>
+            <Image 
+              src="/images/react/return-jsx.png"
+              alt="Code block for returning a JSX element in React function"
+              width={400}
+              height={400}
+              className="fade-in-up rounded-lg"
+            />
 
+            <li className="ordered-item">
+              Another option is to return another function within a React function
+            </li>
+            <Image 
+              src="/images/react/return-function.png"
+              alt="Code block for returning another React function in React function"
+              width={400}
+              height={400}
+              className="fade-in-up rounded-lg"
+            />
+          </ol>
+          <p className="body">
+            What if we really want to be fancy and return more than one element? 
+            Do you think this is allowed?
+          </p>
+          <p className="body">
+            The answer is <span className="font-bold">NO! </span>
+            JSX expressions carry only one parent element, which means React components 
+            can only return <span className="font-bold">ONE</span> parent element. 
+          </p>
+
+        {/* Returning more than one parent element in React component */}
+        <h2 className="subheading">Returning Multiple Parent Elements in React Components</h2>
+          <p className="body">
+            In React, to return more than one element, you must encase both elements within 
+            a <code className="inline-code">{"<div> </div>"}</code> container. Because that
+            way, it still adheres to the single parent element principle.
+          </p>
+          <Image 
+            src="/images/react/div-container.png"
+            alt="Code block for hiding multiple parent elements within a single div container in React componenet"
+            width={400}
+            height={400}
+            className="fade-in-up rounded-lg"
+          />
         </div>
       </main>
     );
