@@ -55,6 +55,7 @@ export default function Home() {
                 alt="getData Function Code Block"
                 width={300}
                 height={300}
+                className="fade-in-up rounded-lg"
             />
 
             {/* Manipulating Data*/}
@@ -67,6 +68,7 @@ export default function Home() {
                 alt="await Function Code Block"
                 width={300}
                 height={300}
+                className="fade-in-up rounded-lg"
             />
 
             {/* Passing Props*/}
@@ -87,6 +89,7 @@ export default function Home() {
                         alt="Props Function Code Block"
                         width={300}
                         height={300}
+                        className="fade-in-up rounded-lg"
                     />
                 </div>
                 <div className="md:w-1/2 section-column items-center">

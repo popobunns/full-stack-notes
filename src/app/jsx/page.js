@@ -41,11 +41,12 @@ export default function Home() {
           Now we've acquainted ourselves with this function, let's look into the differences between
           React + JavaScript vs React + JSX: 
         </p>
-        <Image className="fade-in-up"
+        <Image 
           src="/images/jsx/attributes.png"
           alt="React without JSX vs with JSX for Attributes and Props"
           width={500}
           height={500}
+          className="fade-in-up rounded-lg"
         />
         <p className="body">
           Notice how in the "React without JSX" example, we have an example where
@@ -68,11 +69,12 @@ export default function Home() {
           A powerful feature of JSX is that we can solely re-load dynamic information
           while keeping the static information the same, which makes renderig efficient. 
         </p>
-        <Image className="fade-in-up"
+        <Image 
           src="/images/jsx/dynamic.png"
           alt="React without JSX vs with JSX for Dynamic Information"
           width={500}
           height={500}
+          className="fade-in-up rounded-lg"
         />
         <p className="body">You're probably starting to get the idea that JSX 
           definitely makes it easier to read code. Here's more information if you're

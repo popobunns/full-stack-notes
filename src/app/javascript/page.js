@@ -24,11 +24,12 @@ export default function Home() {
           I'm going to assume you are already aware of the different data types. 
           Here are some examples of JavaScript data types below: 
         </p>
-        <Image
+        <Image 
           src="/images/variables.png"
           alt="Variable Types in JavaSctipt"
           width={400}
           height={400}
+          className="fade-in-up rounded-lg"
           />
         
         {/* Variable Declaration*/}
@@ -59,6 +60,7 @@ export default function Home() {
           alt="Typing Issues in JavaScript Code Block"
           width={400}
           height={400}
+          className="fade-in-up rounded-lg"
           />
         <p className="body">
           In this example, the purpose of the <code className="inline-code">add()</code>
@@ -76,38 +78,42 @@ export default function Home() {
         <ol className="ordered-list font-bold">
           <li className="ordered-item">
             Use TypeScript (static typing)
-            <Image className="fade-in-up"
+            <Image 
               src="/images/javascript/typescript.png"
               alt="TypeScript Static Typing of Data Types"
               width={500}
               height={500}
+              className="fade-in-up rounded-lg"
             />
           </li>
           <li className="ordered-item font-bold">
             Manually type verification
-            <Image className="fade-in-up"
+            <Image 
               src="/images/javascript/manual-check.png"
               alt="Manual Checking of Data Types"
               width={500}
               height={500}
+              className="fade-in-up rounded-lg"
             />
           </li>
           <li className="ordered-item font-bold">
             Create an assert function
-            <Image className="fade-in-up"
+            <Image 
               src="/images/javascript/assert-function.png"
               alt="Creating an Assert Function of Data Types"
               width={500}
               height={500}
+              className="fade-in-up rounded-lg"
             />
           </li>
           <li className="ordered-item font-bold">
             Type coercion
-            <Image className="fade-in-up"
+            <Image 
               src="/images/javascript/type-coercion.png"
               alt="Type Coercion of Data Types"
               width={400}
               height={400}
+              className="fade-in-up rounded-lg"
             />
           </li>
         </ol>
@@ -118,11 +124,12 @@ export default function Home() {
       <p className="body">
       Below is a useful table to remember some common arithmetic symbols in JavaScript:
      </p>
-     <Image className="fade-in-up"
+     <Image 
       src="/images/javascript/arithmetic.png"
       alt="Table of Arithmetic Operations in JavaScript"
       width={400}
       height={400}
+      className="fade-in-up rounded-lg"
       />
 
       {/* ASSIGNMENT, COMPARISON, AND LOGICAL OPERATIONS */}
@@ -131,11 +138,12 @@ export default function Home() {
       Assignment, comparison, and logical oeprational syntax in JavaScript is similar to other programming languages, 
       however there are a few differences that I have highlighted in orange below: 
      </p>
-     <Image className="fade-in-up"
+     <Image 
       src="/images/javascript/operations.png"
       alt="Table of JavaScript Assignment, Comparison, and Logical Operations"
       width={500}
       height={500}
+      className="fade-in-up rounded-lg"
      />
      <p className="body italic">
       NOTE: In JavaScript, <code className="inline-code">==</code> and <code className="inline-code">===</code> mean different
@@ -166,11 +174,12 @@ export default function Home() {
         so if you want <code className="inline-code">function second()</code> to use <code className="inline-code">function first()</code>, then you must declare 
         <code className="inline-code">function first()</code> first. 
       </p>
-      <Image className="fade-in-up"
+      <Image 
         src="/images/javascript/function/function-declaration.png"
         alt="Code block demonstrating function declaration ordering"
         width={500}
         height={500}
+        className="fade-in-up rounded-lg"
       />
       <p className="body">
         In this example, we see two functions, both which are intiialized via function declaration. Thus, they are available at the global
@@ -187,11 +196,12 @@ export default function Home() {
         (ie we don't want to accidentally overwrite the variable to which this function is assigned to, because doing so would mean 
         losing access to this function). See below for an example: 
       </p>
-      <Image className="fade-in-up"
+      <Image 
         src="/images/javascript/function/function-expression.png"
         alt="Code block of function expression"
         width={300}
         height={300}
+        className="fade-in-up rounded-lg"
       />
       {/* IIFE */}
      <h3 className="subsubheading">3) Immediately Invoked Function Expression (IIFE)</h3>
@@ -199,11 +209,12 @@ export default function Home() {
         IIFEs are used when you want a function that is executed immediately after it is defined. See below 
         for an example: 
       </p>
-      <Image className="fade-in-up"
+      <Image 
         src="/images/javascript/function/iife.png"
         alt="Code block of immediately invoked function expression"
         width={400}
         height={400}
+        className="fade-in-up rounded-lg"
       />
       <p className="body italic">
         NOTE: Remember, the <code className="inline-code">();</code> that follows the IIFE is what
@@ -237,6 +248,7 @@ export default function Home() {
       alt="Code block of two function parameter turning into arrow function"
       width={400}
       height={400}
+      className="fade-in-up rounded-lg"
     />
 
     {/* One Parameter Std Function into Arrow Function */}
@@ -246,6 +258,7 @@ export default function Home() {
       alt="Code block of two function parameter turning into arrow function"
       width={300}
       height={300}
+      className="fade-in-up rounded-lg"
     />
 
     {/* Arrow Functions vs Function Declarations*/}
