@@ -11,7 +11,7 @@ export default function Home() {
           <p className="author">Author: Jina</p>
 
           {/* React Basics */}
-          <h2 className="subheading">React Basics</h2>
+          <h2 className="subheading">1. React Basics</h2>
           <p className="body">
             Now, let's talk about React. Simply put, React is a JavaScript framework 
             created by Facebook to make it faster/easier to build applications. 
@@ -129,7 +129,7 @@ export default function Home() {
           />
 
           {/* React Components and Props */}
-        <h2 className="subheading">React Components and Passing in Props</h2>
+        <h2 className="subheading">2. React Components and Passing in Props</h2>
         <p className="body">
           Now, we will explore an important concept in React components: <span className="font-bold">
           props and objects</span>. Remember React components are functions/classes that can take in 
@@ -187,6 +187,30 @@ export default function Home() {
               className="fade-in-up rounded-lg ml-5"
             />
           </ol>
+
+          <p className="body">
+            For more information about props in React, refer to this official document from React.
+          </p>
+          <Link
+            href="https://react.dev/learn/passing-props-to-a-component"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800">
+            Passing Props in React
+          </Link>
+
+          {/* Accessing Props Attributes*/}
+          <h2 className="subheading">3. Useful Resources for React Components</h2>
+          Here are a few resources for writing certain React components. 
+
+          {/* Adding Images*/}
+          <h3 className="subsubheading">Adding Images in React</h3>
+          
+
+          {/* Adding Images*/}
+          <h3 className="subsubheading">Adding Links in React</h3>
+
+
         </div>
       </main>
     );
