@@ -250,9 +250,55 @@ export default function Home() {
               width={500}
               height={400}
             />
-          {/* Adding Images*/}
-          <h3 className="subsubheading">Adding Links in React</h3>
+          <br/>
 
+          <p className="body">
+            To add external links, you just add the link within the <code className="inline-code">src</code>
+            attribute. Just be aware that the external images may load slower. Also, ensure to review 
+            the copyright and usage rights associated with that image. 
+          </p>
+
+          {/* Adding Images*/}
+          <h3 className="subsubheading">Adding Images in React (HTML ed)</h3>
+          <ol className="ordered-list">
+            <li className="ordered-item">
+              No import required. 
+            </li>
+            <li className="ordered-item">
+              Same steps and attributes as <code className="inline-code">{"<Image>"}</code>
+            </li>
+          </ol>
+
+          {/* Adding Links*/}
+          <h3 className="subsubheading">Adding Links to Internal Pages in React</h3>
+          <p className="body">
+            Again, assuming we are working in Next.js, we can use their special <code className="inline-code">
+            {"<Link>"}</code> component to add page navigation to another <span className="font-bold">internal </span> 
+            page. Here are the steps: 
+          </p>
+          <ol className="ordered-list">
+            <li className="ordered-item">
+              Import the following: <code className="inline-code">import Link from "next/link";</code>
+            </li>
+            <li className="ordered-item">
+              Within the <code className="inline-code">{"<Link>"}</code> tag, add the <code className="inline-code">href</code> 
+              attribute. Add a path to that page file (eg pages/about.js). If navigating to an external website, you can use the 
+              <code className="inline-code">{"<a>"}</code>.
+            </li>
+            <li className="ordered-item">
+              Next, between the opening and closing tags, add the text you want the URL to hide within. 
+            </li>
+            <Image 
+              src="/images/react/import-link.png"
+              alt="Code block of importing internal Link within <Link> React component"
+              width={300}
+              height={300}
+              className="fade-in-up rounded-lg"
+            />
+          </ol>
+
+          {/* Adding Links*/}
+          <h3 className="subsubheading">Adding Links to External Pages in React</h3>
 
         </div>
       </main>
