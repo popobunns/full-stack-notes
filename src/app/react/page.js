@@ -205,7 +205,47 @@ export default function Home() {
 
           {/* Adding Images*/}
           <h3 className="subsubheading">Adding Images in React</h3>
-          
+          Assuming a Next.js framework, to display an internal image, follow these instructions: 
+          <ol className="ordered-list">
+            <li className="ordered-item">
+              Import the appropriate package: <code className="inline-code">import Image from 
+                "next/image";
+              </code>
+            </li>
+            <li className="ordered-item">
+              Create an <code className="inline-code">images</code> folder under the 
+              <code className="inline-code">public</code> folder. Add your image in this folder.
+            </li>
+            <li className="ordered-item">
+              In the file you want to render the image, add the <code className="inline-code">{"<Image></Image>"}</code>
+              tags.
+            </li>
+            <li className="ordered-item">
+              Within the opening <code className="inline-code">{"<Image>"}</code> tag, add these following attributes:
+              src, alt, width, height. 
+            </li>
+            <li className="ordered-item">
+              In the <code className="inline-code">src</code> attribute, add a path to your image file. For instance, 
+              if we had a picture called "picture.jpg" nested under the images folder, we would have this src path: 
+              <code className="inline-code">src="/images/picture.jpg"</code>
+            </li>
+            <li className="ordered-item">
+              In the <code className="inline-code">alt</code> attribute, it's a short description that tells client 
+              the content the image has. It's up to the developer to write an appropriate summary that explains the contents
+              of the image. It's often used by screen readers (eg for visually impaired users) or for search engine optimization. 
+            </li>
+            <li className="ordered-item">
+              In the <code className="inline-code">width</code> and <code className="inline-code">height</code> attributes,
+              we can set the width and height of the image in { }. For instance, <code className="inline-code">width={"{300}"}</code>
+              and <code className="inline-code">height={"{300}"}</code>
+            </li>
+            <Image 
+              src="/images/react/import-image.png"
+              alt="Code block of Next.js Image tag and its attributes"
+              width={500}
+              height={400}
+            />
+          </ol>
 
           {/* Adding Images*/}
           <h3 className="subsubheading">Adding Links in React</h3>
