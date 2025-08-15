@@ -146,6 +146,7 @@ export default function Home() {
           height={300}
           className="fade-in-up rounded-lg"
         />
+        <br/>
         <p className="body italics">
           In this example, the <span className="font-bold">parent component</span> is 
           <code className="inline-code">App()</code> and the <span className="font-bold">
@@ -160,6 +161,20 @@ export default function Home() {
 
         {/* Accessing Props Attributes*/}
         <h3 className="subsubheading">Accessing Props Attributes</h3>
+          <p className="body">
+            Now that we understand the concept of props, it's now time to learn how to access the 
+            attributes of these props. There are two general ways to access props' attributes. 
+          </p>
+          <ol className="ordered-list">
+            <li className="ordered-item">Dot Notation
+              <p className="body ml-5">
+                The example you see before is using <span className="font-bold">dot notation</span>
+                to access the attributes within the props object. The syntax is: 
+              </p>
+            </li>
+              
+            <li className="ordered-item">Destructuring Props</li>
+          </ol>
         </div>
       </main>
     );
