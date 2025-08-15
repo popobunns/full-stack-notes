@@ -116,7 +116,7 @@ export default function Home() {
         {/* Returning more than one parent element in React component */}
         <h2 className="subheading">Returning Multiple Parent Elements in React Components</h2>
           <p className="body">
-            In React, to return more than one element, you must encase both elements within 
+            In React, to return more than one element, you must wrap the elements within 
             a <code className="inline-code">{"<div> </div>"}</code> container. Because that
             way, it still adheres to the single parent element principle.
           </p>
@@ -127,6 +127,25 @@ export default function Home() {
             height={400}
             className="fade-in-up rounded-lg"
           />
+
+          {/* React Components and Props */}
+        <h2 className="subheading">React Components and Passing in Props</h2>
+        <p className="body">
+          Now, we will explore an important concept in React components: <span className="font-bold">
+          props and objects</span>. Remember React components are functions/classes that can take in 
+          parameters. Objects can be passed in as parameters to React components. We can also do what's 
+          called <span className="font-bold">"passing in props"</span>, which is when we pass in attributes 
+          to react components. When we pass these attributes in, they actually get passed in as a single 
+          object parameter, with those attributes grouped together. This is called the <span 
+          className="font-bold">props object</span>.
+        </p>
+        <Image 
+          src="/images/react/dot-notation.png"
+          alt="Code block of React component accessing props object's attributes via dot notation"
+          width={400}
+          height={300}
+          className="fade-in-up rounded-lg"
+        />
         </div>
       </main>
     );
