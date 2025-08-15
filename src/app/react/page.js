@@ -166,14 +166,26 @@ export default function Home() {
             attributes of these props. There are two general ways to access props' attributes. 
           </p>
           <ol className="ordered-list">
-            <li className="ordered-item">Dot Notation
+            <li className="ordered-item"><span className="font-bold">Dot Notation</span>
               <p className="body ml-5">
-                The example you see before is using <span className="font-bold">dot notation</span>
+                The example you see before is using <span className="font-bold">dot notation </span>
                 to access the attributes within the props object. The syntax is: 
+                <code className="inline-code body ml-5">props.attribute</code>
               </p>
             </li>
-              
-            <li className="ordered-item">Destructuring Props</li>
+            <li className="ordered-item"><span className="font-bold">Destructuring Props</span>
+              <p className="body ml-5">
+              This method of accessing attributes is less verbose so it is often preferred over the dot 
+              notation.
+              </p>
+            </li>
+            <Image 
+              src="/images/react/destructuring.png"
+              alt="Code block of React component using destructuring method to access props' attributes"
+              width={450}
+              height={400}
+              className="fade-in-up rounded-lg ml-5"
+            />
           </ol>
         </div>
       </main>
