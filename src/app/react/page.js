@@ -204,7 +204,7 @@ export default function Home() {
           Here are a few resources for writing certain React components. 
 
           {/* Adding Images*/}
-          <h3 className="subsubheading">Adding Images in React</h3>
+          <h3 className="subsubheading">Adding Images in React (Next.js ed)</h3>
           Assuming a Next.js framework, to display an internal image, follow these instructions: 
           <ol className="ordered-list">
             <li className="ordered-item">
@@ -236,17 +236,20 @@ export default function Home() {
             </li>
             <li className="ordered-item">
               In the <code className="inline-code">width</code> and <code className="inline-code">height</code> attributes,
-              we can set the width and height of the image in { }. For instance, <code className="inline-code">width={"{300}"}</code>
-              and <code className="inline-code">height={"{300}"}</code>
+              we can set the width and height of the image within { }. For instance, <code className="inline-code">width={"{300}"}</code>
+              and <code className="inline-code">height={"{300}"}</code>.
             </li>
-            <Image 
+            <li className="ordered-item">
+              Lastly, we can add styling to the image via <code className="inline-code">className=""</code>.
+              This step is not necessary, but we can adjust the image (eg rounding the corners, animations, etc).
+            </li>
+          </ol>
+          <Image 
               src="/images/react/import-image.png"
               alt="Code block of Next.js Image tag and its attributes"
               width={500}
               height={400}
             />
-          </ol>
-
           {/* Adding Images*/}
           <h3 className="subsubheading">Adding Links in React</h3>
 
