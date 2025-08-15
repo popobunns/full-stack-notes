@@ -146,6 +146,20 @@ export default function Home() {
           height={300}
           className="fade-in-up rounded-lg"
         />
+        <p className="body italics">
+          In this example, the <span className="font-bold">parent component</span> is 
+          <code className="inline-code">App()</code> and the <span className="font-bold">
+            child component</span> is <code className="inline-code">RestaurantInfo(props)</code>.
+          As you can see, the attributes passed into <code className="inline-code">RestaurantInfo(props)</code>
+          are <code className="inline-code">name</code>, <code className="inline-code">size</code>, 
+          <code className="inline-code">cuisineType</code>, and <code className="inline-code">staffNumber</code>. 
+          These attributes are passed into the child component as a <span className="font-bold">single
+          props object</span>. <code className="inline-code">RestaurantInfo(props)</code> then renders the 
+          JSX elements, which are translated into HTML elements then rendered on the browser. 
+        </p>
+
+        {/* Accessing Props Attributes*/}
+        <h3 className="subsubheading">Accessing Props Attributes</h3>
         </div>
       </main>
     );
