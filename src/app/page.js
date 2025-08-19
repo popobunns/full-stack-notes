@@ -5,6 +5,10 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-start min-h-screen p-8 bg-white">
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-800 text-center mt-20 fade-in-up">Full Stack Web Development Notes</h1>
+      <br/>
+      {/* Author Note*/}
+       <p className="author fade-in-up">By: Jina Yeom</p>
+
 
       {/* Flex row for image + list */}
       <div className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-8">
