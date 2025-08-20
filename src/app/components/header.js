@@ -7,7 +7,13 @@ export default function Header() {
     <header className="h-16 flex items-center justify-between px-6 shadow-md">
       {/* Logo */}
       <Link href="/" className="flex items-center space-x-2">
-        <Image src="/images/logo.png" alt="Web Notes Logo" width={32} height={32} />
+        <Image 
+          src="/images/logo.png" 
+          alt="Web Notes Logo" 
+          width={32} 
+          height={32} 
+          className="w-10 h-auto"
+        />
         <span className="text-lg font-semibold text-gray-800">Web Notes</span>
       </Link>
 

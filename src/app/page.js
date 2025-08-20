@@ -15,11 +15,12 @@ export default function Home() {
         {/* Left: Image */}
         <div className="flex-shrink-0">
           <h2 className="subheading fade-in-up">Full Stack Summary</h2>
-          <Image className="fade-in-up"
+          <Image 
             src="/images/summary.png"
             alt="Summary Image of Full Stack Web Development"
             width={600}
             height={600}
+            className="fade-in-up w-150 h-auto"  
             />
         </div>
         
