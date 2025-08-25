@@ -8,6 +8,21 @@ export default function Home() {
       <br/>
       {/* Author Note*/}
        <p className="author fade-in-up">By: Jina Yeom</p>
+      
+      {/*Welcome Message*/}
+      <p className="body">
+        Welcome! I'm glad you're here :)
+      </p>
+      <br/>
+      <p className="body">
+        If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
+        but you may be a bit confused with all the terminology and information that's available out there. And if you're 
+        anything like me, this may make you feel a bit of imposter syndrome. 
+      </p>
+      <br/>
+      <p className="body">
+        
+      </p>
 
 
       {/* Flex row for image + list */}
