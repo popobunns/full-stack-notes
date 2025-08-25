@@ -10,9 +10,11 @@ export default function Home() {
        <p className="author fade-in-up">By: Jina Yeom</p>
       
       {/* Greeting*/}
-      <h2 className="subheading fade-in-up">
-        Hey there👋 I'm glad you're here 😁
-      </h2>
+      <div className="fade-in-up">
+        <h2 className="subheading fade-in-up">
+          Hey there👋 I'm glad you're here 😁
+        </h2>
+      </div>
 
       {/* Flex row for image + list */}
       <div className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-8">
@@ -73,37 +75,40 @@ export default function Home() {
       {/*Welcome Message*/}
 
       <div>
-        <h2 className="subheading fade-in-up">
-          Read below...
-        </h2>
-        <p className="body">
-          If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
-          but you may be a bit confused with all the terminology and information that's available out there. And if you're 
-          anything like me, this may make you feel a bit of imposter syndrome. 
-        </p>
-        <p className="body">
-          Allow me to be a friendly reminder that this is hard stuff! It's not supposed to be easy. I'm not going to sugar coat it; 
-          there is a LOT to learn. However, as long as you dedicate persistent hours and stay disciplined in your self-learning journey, 
-          you will succeed. 
-        </p>
-        <p className="body">
-          To give you a little help, I've created this tutorial to help guide your learning journey. It just explains some of the basics
-          and breaks down common terminology to help you get started. I've also included some links to official documents for you to 
-          further your understanding and learning.
-        </p>
-        <p className="body">
-          With that being said, good luck! And be proud of yourself for starting 🫡
-        </p>
-        <p className="body">
-          - Jina 
-        </p>
-      
-        {/*How to use Guide*/}
-        <div>
+        <div className="white-box fade-in-up">
           <h2 className="subheading fade-in-up">
+            Read below...
+          </h2>
+          <p>
+            If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
+            but you may be a bit confused with all the terminology and information that's available out there. And if you're 
+            anything like me, this may make you feel a bit of imposter syndrome. 
+          </p>
+          <p>
+            Allow me to be a friendly reminder that this is hard stuff! It's not supposed to be easy. I'm not going to sugar coat it; 
+            there is a LOT to learn. However, as long as you dedicate persistent hours and stay disciplined in your self-learning journey, 
+            you will succeed. 
+          </p>
+          <p>
+            To give you a little help, I've created this tutorial to help guide your learning journey. It just explains some of the basics
+            and breaks down common terminology to help you get started. I've also included some links to official documents for you to 
+            further your understanding and learning.
+          </p>
+          <p>
+            With that being said, good luck! And be proud of yourself for starting 🫡
+          </p>
+          <p>
+            - Jina 
+          </p>
+        </div>
+        <br/>
+        {/*How to use Guide*/}
+        <div className="white-box fade-in-up">
+          <h2>
             How to Use this Guide 
           </h2>
 
+          {/*New User*/}
           <div>
             <h3 className="subsubheading fade-in-up">
               If you're SUPER new...
@@ -118,9 +123,36 @@ export default function Home() {
                 extensively for web development (eg React, Node, Next.js), plus multiple frameworks and other
                 programming languages (eg TypeScript) are based off of JavaScript.
               </li>
+              <li className="ordered-item">
+                Once you have a good understanding of programming in JavaScript, you can now move onto
+                learning "JSX", "React", and "Next.js".
+              </li>
+              <li className="ordered-item">
+                Now you have the tools you need for web development, you can start learning how all of it 
+                comes together to make a website by studying the "Creating a Website" module. 
+              </li>
+              <li className="ordered-item">
+                Once you have an understanding of how to create a website, perhaps you want to create a Website
+                that fetches data from an external source, like from an API. If that is the case, you'll need 
+                to learn how to fetch that data. Learn how by studying the "Fetching Data" module. 
+              </li>
             </ol>
           </div>
           
+          {/*Moderately New*/}
+          <div>
+            <h3 className="subsubheading fade-in-up">
+              If you're kinda new..
+            </h3>
+            <ol className="ordered-list">
+              <li className="ordered-item">
+                You can skip Step 1 from the list above and use your own discretion. 
+              </li>
+              <li className="ordered-item">
+                Review the modules you aren't confident in. 
+              </li>
+            </ol>
+          </div>
         </div>
         
       </div>
