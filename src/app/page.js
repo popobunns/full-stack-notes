@@ -153,17 +153,19 @@ export default function Home() {
               </li>
             </ol>
           </div>
+
+
+          {/*Advanced*/}
+          <div>
+              <h3 className="subsubheading fade-in-up">
+                If you're advanced...
+              </h3>
+              <p>
+                Maybe you can review my notes and suggest any edits? 
+              </p>
+          </div>
         </div>
         
-        {/*Advanced*/}
-        <div>
-            <h3 className="subsubheading fade-in-up">
-              If you're advanced...
-            </h3>
-            <p>
-              Maybe you can review my notes and suggest any edits? 
-            </p>
-        </div>
         
       </div>
 
