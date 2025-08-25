@@ -9,21 +9,10 @@ export default function Home() {
       {/* Author Note*/}
        <p className="author fade-in-up">By: Jina Yeom</p>
       
-      {/*Welcome Message*/}
-      <p className="body">
-        Welcome! I'm glad you're here :)
-      </p>
-      <br/>
-      <p className="body">
-        If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
-        but you may be a bit confused with all the terminology and information that's available out there. And if you're 
-        anything like me, this may make you feel a bit of imposter syndrome. 
-      </p>
-      <br/>
-      <p className="body">
-        
-      </p>
-
+      {/* Greeting*/}
+      <h2 className="subheading">
+        Hey there👋 I'm glad you're here 😁
+      </h2>
 
       {/* Flex row for image + list */}
       <div className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-8">
@@ -78,7 +67,28 @@ export default function Home() {
             </li>
           </ul>
         </div>
-
+      </div>
+      <br/>
+      {/*Welcome Message*/}
+      <div>
+        <p className="body">
+          If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
+          but you may be a bit confused with all the terminology and information that's available out there. And if you're 
+          anything like me, this may make you feel a bit of imposter syndrome. 
+        </p>
+        <p className="body">
+          Allow me to be a friendly reminder that this is hard stuff! It's not supposed to be easy. I'm not going to sugar coat it; 
+          there is a LOT to learn. However, as long as you dedicate persistent hours and stay disciplined in your self-learning journey, 
+          you will succeed. 
+        </p>
+        <p className="body">
+          To give you a little help, I've created this tutorial to help guide your learning journey. It just explains some of the basics
+          and breaks down common terminology to help you get started. I've also included some links to official documents for you to 
+          further your understanding and learning.
+        </p>
+        <p className="body">
+          With that being said, good luck! And be proud of yourself for starting 🫡
+        </p>
       </div>
       
     </main>
