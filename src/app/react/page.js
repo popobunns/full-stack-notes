@@ -10,6 +10,18 @@ export default function Home() {
           {/* Author Note*/}
           <p className="author">Author: Jina</p>
 
+          <p className="body">
+            Here is the official website for React: 
+            
+          </p>
+          <Link
+            href="https://react.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800">
+            React Official Website
+          </Link>
+          
           {/* React Basics */}
           <h2 className="subheading">1. React Basics</h2>
           <p className="body">

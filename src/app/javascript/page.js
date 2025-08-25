@@ -18,15 +18,14 @@ export default function Home() {
         </p>
         <p className="body">
           Here's the link to the official web documents for JavaScript:
-          <Link
+        </p>
+        <Link
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline hover:text-blue-800">
             JavaScript MDN Web Docs
-          </Link> 
-
-        </p>
+        </Link> 
 
 
         {/* Body Text*/}
