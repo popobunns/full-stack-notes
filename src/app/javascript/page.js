@@ -16,6 +16,17 @@ export default function Home() {
           as a strong foundational understanding of the syntax is necessary to understand
           other web development tools like TypeScript, Node.js, React, etc.
         </p>
+        <p className="body">
+          Here's the link to the official web documents for JavaScript:
+          <Link
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800">
+            JavaScript MDN Web Docs
+          </Link> 
+
+        </p>
 
 
         {/* Body Text*/}
