@@ -10,7 +10,7 @@ export default function Home() {
        <p className="author fade-in-up">By: Jina Yeom</p>
       
       {/* Greeting*/}
-      <h2 className="subheading">
+      <h2 className="subheading fade-in-up">
         Hey there👋 I'm glad you're here 😁
       </h2>
 
@@ -69,8 +69,13 @@ export default function Home() {
         </div>
       </div>
       <br/>
+
       {/*Welcome Message*/}
+
       <div>
+        <h2 className="subheading fade-in-up">
+          Read below...
+        </h2>
         <p className="body">
           If you found yourself on my website, I'm guessing it's safe to say that you're interesting in learning web development, 
           but you may be a bit confused with all the terminology and information that's available out there. And if you're 
@@ -89,7 +94,17 @@ export default function Home() {
         <p className="body">
           With that being said, good luck! And be proud of yourself for starting 🫡
         </p>
+        <p className="body">
+          - Jina 
+        </p>
+      
+        {/*How to use Guide*/}
+        <h2 className="subheading fade-in-up">
+          How to Use this Guide 
+        </h2>
       </div>
+
+
       
     </main>
 
