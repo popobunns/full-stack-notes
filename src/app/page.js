@@ -155,10 +155,18 @@ export default function Home() {
           </div>
         </div>
         
+        {/*Advanced*/}
+        <div>
+            <h3 className="subsubheading fade-in-up">
+              If you're advanced...
+            </h3>
+            <p>
+              Maybe you can review my notes and suggest any edits? 
+            </p>
+        </div>
+        
       </div>
 
-
-      
     </main>
 
   );
