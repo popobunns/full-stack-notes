@@ -99,9 +99,30 @@ export default function Home() {
         </p>
       
         {/*How to use Guide*/}
-        <h2 className="subheading fade-in-up">
-          How to Use this Guide 
-        </h2>
+        <div>
+          <h2 className="subheading fade-in-up">
+            How to Use this Guide 
+          </h2>
+
+          <div>
+            <h3 className="subsubheading fade-in-up">
+              If you're SUPER new...
+            </h3>
+            <ol className="ordered-list">
+              <li className="ordered-item">
+                Start with "How Servers and Browsers Interact" to learn what servers 
+                and browsers even mean.
+              </li>
+              <li className="ordered-item">
+                Then proceed to learn "JavaScript" as this is the language you will use
+                extensively for web development (eg React, Node, Next.js), plus multiple frameworks and other
+                programming languages (eg TypeScript) are based off of JavaScript.
+              </li>
+            </ol>
+          </div>
+          
+        </div>
+        
       </div>
 
 
